@@ -1,11 +1,12 @@
-import{j as u,h as a,s as c,r as f,W as g,R as y,a as h}from"./vendor.js";const x=function(){const n=document.createElement("link").relList;if(n&&n.supports&&n.supports("modulepreload"))return;for(const e of document.querySelectorAll('link[rel="modulepreload"]'))d(e);new MutationObserver(e=>{for(const t of e)if(t.type==="childList")for(const i of t.addedNodes)i.tagName==="LINK"&&i.rel==="modulepreload"&&d(i)}).observe(document,{childList:!0,subtree:!0});function s(e){const t={};return e.integrity&&(t.integrity=e.integrity),e.referrerpolicy&&(t.referrerPolicy=e.referrerpolicy),e.crossorigin==="use-credentials"?t.credentials="include":e.crossorigin==="anonymous"?t.credentials="omit":t.credentials="same-origin",t}function d(e){if(e.ep)return;e.ep=!0;const t=s(e);fetch(e.href,t)}};x();const r=u.exports.jsx,p=u.exports.jsxs,b=a("20240721","YYYYMMDD"),m=()=>a.duration(b.diff(a())),S=c.div`
+import{j as u,h as a,s as c,r as f,W as g,R as y,a as h}from"./vendor.js";const b=function(){const n=document.createElement("link").relList;if(n&&n.supports&&n.supports("modulepreload"))return;for(const e of document.querySelectorAll('link[rel="modulepreload"]'))d(e);new MutationObserver(e=>{for(const t of e)if(t.type==="childList")for(const i of t.addedNodes)i.tagName==="LINK"&&i.rel==="modulepreload"&&d(i)}).observe(document,{childList:!0,subtree:!0});function s(e){const t={};return e.integrity&&(t.integrity=e.integrity),e.referrerpolicy&&(t.referrerPolicy=e.referrerpolicy),e.crossorigin==="use-credentials"?t.credentials="include":e.crossorigin==="anonymous"?t.credentials="omit":t.credentials="same-origin",t}function d(e){if(e.ep)return;e.ep=!0;const t=s(e);fetch(e.href,t)}};b();const r=u.exports.jsx,p=u.exports.jsxs,x=a("20240721","YYYYMMDD"),m=()=>a.duration(x.diff(a())),S=c.div`
 position: absolute;
 top: 0;
 right: 0;
 bottom: 0;
 left: 0;
 overflow-y: auto;
-background-image: linear-gradient(-45deg, rgb(33, 150, 243), rgb(102, 178, 240));
+/* background-image: linear-gradient(-45deg, rgb(33, 150, 243), rgb(102, 178, 240)); */
+background-image: linear-gradient(-45deg, #50466b, #9886c9);
 color: white;
 `,v=c.div`
 position: absolute;
